@@ -1,0 +1,432 @@
+body {
+    overflow-x: hidden;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.loginbutton:hover {
+    background-color: #10d177;
+    border-color: #1672c2;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.dropdown-item:hover {
+    background-color: #198754;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.main-container-front-view {
+    z-index: 1;
+    /* margin-top: 20px; */
+}
+
+.blogs {
+    width: 80%;
+    z-index: 2;
+}
+
+.title-blog {
+    margin-top: 20px;
+}
+
+.blog {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-text {
+    margin-bottom: 20px;
+}
+
+.blog-image {
+    font-size: 24px;
+    text-align: center;
+}
+
+.carousel-item {
+    box-shadow: 0px 8px 26px 0px rgba(0, 0, 0, 0.4);
+}
+
+.fa-solid,
+.fa-regular {
+    font-size: 30px;
+}
+
+.blog:hover h4,
+.blog:hover .fa-solid {
+    color: #198754;
+}
+
+.blog:hover .fa-regular {
+    color: #198754;
+}
+
+.carousel-item img {
+    opacity: 90%;
+}
+
+.welcome-container {
+    padding: 50px 30px;
+}
+
+.welcome-image {
+    padding: 20px;
+}
+
+.welcome-image img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcometext {
+    padding: 20px;
+}
+
+.welcometext h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcometext p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .welcome-image {
+        margin-bottom: 20px;
+    }
+    .welcometext {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-image img {
+        width: 100%;
+        height: auto;
+    }
+    .welcometext h1 {
+        font-size: 24px;
+    }
+    .welcometext p {
+        font-size: 14px;
+    }
+}
+
+.sub-head,
+.para {
+    text-align: right;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+}
+
+.news-section {
+    background-color: #f2f2f2;
+    /* border-radius: 20px; */
+}
+
+.card-title {
+    border-bottom: 4px solid #198754;
+    text-transform: capitalize;
+    line-height: 40px;
+    padding: 1px;
+}
+
+.card-text {}
+
+.alumni-section {
+    background-color: #f9f9f9;
+}
+
+.alumni-section h2 {
+    text-align: center;
+    padding: 12px;
+    color: orange;
+}
+
+.testimonial-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(231, 199, 19, 0.8);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial-actions {
+    margin-top: 10px;
+}
+
+.testimonial-actions button {
+    margin-right: 10px;
+}
+
+.collapse {
+    margin-top: 10px;
+}
+
+.collapse textarea {
+    resize: none;
+    height: 100px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.year-historical-quote {
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+.quote-card {
+    background-color: #198754;
+}
+
+.total-number-of-staff-and-non-staff-and-students-section {
+    background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(0, 0, 0, 0.4)), url('images/school1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin-left: 10px;
+}
+
+.digits {
+    background-color: transparent;
+    color: #fff;
+    font-weight: 300;
+}
+
+.news-subscription h1,
+.footer-school-links-section h3 {
+    font-size: 20px;
+}
+
+.top-footer {
+    background-color: #198754;
+}
+
+.sub-news-image p {
+    font-weight: bold;
+}
+
+.news-email input {
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 2px;
+}
+
+.submit-subscription input {
+    border: none;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.footer-school-links-section a {
+    text-decoration: none;
+}
+
+.footer-school-links-section a:hover {
+    margin-left: 12px;
+}
+
+.bottom-footer {
+    background-color: #41a878;
+}
+
+.social-contact-section a {
+    color: black;
+}
+
+.social-contact-section a:hover {
+    color: #fff;
+}
+
+
+/* this section is for my advanced and ordinary curriculum pages */
+
+.advancedcontainer,
+.ordinarycontainer {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-head {
+    margin-bottom: 20px;
+}
+
+.about-us-head h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.quick-links {
+    margin-bottom: 20px;
+}
+
+.quick-links th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.quick-links td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.advanced-school-contact,
+.ordinary-school-contact {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.advanced-school-contact h2,
+.ordinary-school-contact h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.advanced-school-contact p,
+.ordinary-school-contact p {
+    margin-bottom: 10px;
+}
+
+.advanced-school-contact h4,
+.ordinary-school-contact h4 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .advancedlevelcontainer,
+    .ordinarylevelcontainer {
+        padding: 20px;
+    }
+    .advancedcontainer,
+    .ordinarycontainer {
+        margin-bottom: 20px;
+    }
+    .rightadvancedcontainer,
+    .rightordinarycontainer {
+        margin-top: 20px;
+    }
+}
+
+
+/* this section is for uace and uce performance pages */
+
+.uaceperformancecontainer,
+.uceperformancecontainer {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rightadvancedcontainer .quick-links th,
+.rightordinarycontainer .quick-links th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-news-image video {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    border-radius: 12px;
+}
+
+.card-shadow {
+    box-shadow: 0 0 10px rgba(0, 40, 0, 0.7);
+}
+
+.admin-card {
+    background-color: rgb(240, 240, 240);
+}
+
+.card-body h5 {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.submit-subscription button {
+    width: 100%;
+    height: 40px;
+}
+
+.card video {
+    height: 100vh;
+}
+
+
+/* .main-container-front-view {
+    top: 520px;
+    position: absolute;
+} */
+
+.blog {}
+
+.contact-form {
+    justify-items: center;
+    background-color: #41a878;
+}
+
+.con input {
+    width: 100%;
+    height: 50px;
+}
